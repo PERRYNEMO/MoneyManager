@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Sans&display=swap');
+
+/* ------footer------ */
+footer {
+    background-color: #0b731c;
+    color: #a9e9cd;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+#secondline {
+    height: 3px;
+    width: 75%;
+    margin: 20px auto;
+    background-color: #a9e9cd;
+    margin: 60px auto;
+}
+#copyrightandicons {
+    display: flex;
+    margin-bottom: 20 px;
+    padding: 0 10%;
+}
+#copyright {
+    width: 50%;
+    text-align: left;
+}
+#icons {
+    width: 50%;
+    text-align: right;
+}
+#icons a {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 1.3em;
+    color: #a9e9cd;
+}
+#icons a:hover{
+    transform: scale(1.5);
+    transition: 0.2s;
+}

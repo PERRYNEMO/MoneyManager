@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Sans&display=swap');
+
+
+/*------- Import image --------*/
+
+#editor {
+    padding: 40px 0px 700px;
+}
+
+#loadimage {
+    float: left;
+    text-align: center;
+    background-color: white;
+}
+#imageloader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+}
+label[for="inputimage"]
+{
+    cursor: pointer;
+    background-color: #3dad7d;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    box-shadow: 2px 2px 7px black;
+    transition-duration: 0.5s;
+
+}
+label[for="inputimage"]:hover
+{
+    background-color: #1d6747;
+}
+
+#display_image {
+    width: 854px;
+    height: 480px;
+    border: 5px solid #1130a9;
+    background-size: cover;
+    margin-top: 30px;
+}
+
+#marge {
+    margin-top: 100px;
+}
